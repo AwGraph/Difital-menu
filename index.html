@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Menu</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      padding: 20px;
+    }
+
+    .menu-box {
+      width: 100%;
+      max-width: 420px;
+      background: white;
+      border-radius: 28px;
+      padding: 38px 24px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.20);
+    }
+
+    .icon {
+      font-size: 42px;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 12px;
+      color: #222;
+    }
+
+    p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 32px;
+    }
+
+    .language-btn {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      margin: 14px 0;
+      border-radius: 18px;
+      text-decoration: none;
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+      transition: 0.25s;
+    }
+
+    .language-btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+
+    .kurdish {
+      background: linear-gradient(90deg, #e56de4, #ff4f76);
+    }
+
+    .arabic {
+      background: linear-gradient(90deg, #43a5ff, #14d8e7);
+    }
+
+    .persian {
+      background: linear-gradient(90deg, #35df7f, #20d8bd);
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 13px;
+      color: #999;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="menu-box">
+
+    <div class="icon">🍽️</div>
+
+    <h1>منو</h1>
+
+    <p>لطفاً زبان خود را انتخاب کنید</p>
+
+    <a class="language-btn kurdish" href="kurdish.html">
+      کوردی
+    </a>
+
+    <a class="language-btn arabic" href="arabic.html">
+      عربي
+    </a>
+
+    <a class="language-btn persian" href="persian.html">
+      فارسی
+    </a>
+
+    <div class="footer">
+      Digital Menu
+    </div>
+
+  </div>
+
+</body>
+</html>
